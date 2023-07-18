@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan HTML-tabel</title>
+    <style>
+      div {
+        width: 700px;
+      }
+
+      .akhir {
+        width: 600px;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .no-border {
+        border: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <th colspan="4">SALES INVOIE</th>
+        </tr>
+
+        <tr>
+          <td>Company Name</td>
+          <td>: Craft Craft</td>
+          <td>Invoice Number</td>
+          <td>: INV/2018/0010</td>
+        </tr>
+
+        <tr>
+          <td>Client Number</td>
+          <td>: 0001</td>
+          <td>Invoice Date</td>
+          <td>: 03-Jul-2019</td>
+        </tr>
+
+        <tr>
+          <td>Client Name</td>
+          <td>: Mas Acip</td>
+          <td>Due Date</td>
+          <td>: 17-Jul-2019</td>
+        </tr>
+
+        <tr>
+          <td>Client Phone</td>
+          <td>: 085881183590</td>
+        </tr>
+
+        <tr>
+          <td>Client Address</td>
+          <td>:</td>
+        </tr>
+      </table>
+
+      <table border="1px">
+        <tr>
+          <th>No</th>
+          <th>Product</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Discount</th>
+          <th>Tax</th>
+          <th>Amount</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>Tiket Kereta Api</td>
+          <td>Jakarta - Surabaya</td>
+          <td class="center">3</td>
+          <td>Rp. 750,000.00</td>
+          <td class="center">0%</td>
+          <td class="center">0%</td>
+          <td>Rp. 2,250,000.00</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Tiket Kereta Api</td>
+          <td>Surabaya - Jakarta</td>
+          <td class="center">3</td>
+          <td>Rp. 600,000.00</td>
+          <td class="center">0%</td>
+          <td class="center">0%</td>
+          <td>Rp. 1,800,000.00</td>
+        </tr>
+
+        <tr class="no-border">
+          <th class="no-border">Notes</th>
+          <th class="no-border"></th>
+          <th class="no-border"></th>
+          <th class="no-border"></th>
+          <th class="no-border"></th>
+          <th class="no-border"></th>
+          <th class="no-border">Total</th>
+          <th class="no-border">Rp. 4,50,000.00</th>
+        </tr>
+      </table>
+
+      <div class="akhir">
+        <br />
+        <hr />
+        <h4>Terms and Condition</h4>
+        <hr />
+      </div>
+    </div>
+  </body>
+</html>
