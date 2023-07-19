@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-1 {
+  width: 910px;
+  margin: 80px auto;
+}
+
+.div-2 {
+  width: 680px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.tabel-1 {
+  padding-right: 60px;
+}
+
+.tabel-2,
+.border-2 {
+  border: 1px black solid;
+}
+
+.data-tabel-1 {
+  padding-right: 50px;
+}
+
+.data-tabel-2 {
+  padding-bottom: 200px;
+}
+
+.title {
+  font-size: 26px;
+  padding-left: 165px;
+}
+
+.content {
+  padding-right: 160px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tr-2 {
+  border-bottom: hidden;
+}
+
+.notes {
+  padding-right: 635px;
+}
+
+.total {
+  padding-right: 70px;
+}
+
+.data-product {
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.data-quantity {
+  padding-right: 70px;
+  padding-left: 5px;
+}
+
+.data-price {
+  padding-left: 30px;
+}
+
+.data-tax {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.data-amount {
+  padding-left: 60px;
+}
+
+.padding-th-2 {
+  padding: 0 5px 0 5px;
+}
