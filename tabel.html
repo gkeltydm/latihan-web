@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan HTML-tabel</title>
     <style>
-      div {
-        width: 700px;
+      .div-1 {
+        width: 800px;
+        margin: 100px auto;
       }
 
-      .akhir {
+      .div-2 {
         width: 600px;
       }
 
@@ -17,51 +18,51 @@
         border-collapse: collapse;
       }
 
-      .center {
-        text-align: center;
+      .tabel-1 {
+        padding-right: 50px;
       }
 
-      .no-border {
-        border: 0px;
+      .tabel-2 {
+        padding-bottom: 200px;
       }
     </style>
   </head>
   <body>
-    <div>
+    <div class="div-1">
       <table>
         <tr>
-          <th colspan="4">SALES INVOIE</th>
+          <th class="tabel-1" colspan="4" style="font-size: 26px; padding-left: 130px">SALES INVOICE</th>
         </tr>
 
         <tr>
-          <td>Company Name</td>
-          <td>: Craft Craft</td>
-          <td>Invoice Number</td>
-          <td>: INV/2018/0010</td>
+          <td class="tabel-1">Company Name</td>
+          <td class="tabel-1" style="padding-right: 180px">: Craft Craft</td>
+          <td class="tabel-1">Invoice Number</td>
+          <td class="tabel-1">: INV/2018/0010</td>
         </tr>
 
         <tr>
-          <td>Client Number</td>
-          <td>: 0001</td>
-          <td>Invoice Date</td>
-          <td>: 03-Jul-2019</td>
+          <td class="tabel-1">Client Number</td>
+          <td class="tabel-1" style="padding-right: 180px">: 0001</td>
+          <td class="tabel-1">Invoice Date</td>
+          <td class="tabel-1">: 03-Jul-2019</td>
         </tr>
 
         <tr>
-          <td>Client Name</td>
-          <td>: Mas Acip</td>
-          <td>Due Date</td>
-          <td>: 17-Jul-2019</td>
+          <td class="tabel-1">Client Name</td>
+          <td class="tabel-1" style="padding-right: 180px">: Mas Acip</td>
+          <td class="tabel-1">Due Date</td>
+          <td class="tabel-1">: 17-Jul-2019</td>
         </tr>
 
         <tr>
-          <td>Client Phone</td>
-          <td>: 085881183590</td>
+          <td class="tabel-1">Client Phone</td>
+          <td class="tabel-1" style="padding-right: 180px">: 085881183590</td>
         </tr>
 
         <tr>
-          <td>Client Address</td>
-          <td>:</td>
+          <td class="tabel-1">Client Address</td>
+          <td class="tabel-1">:</td>
         </tr>
       </table>
 
@@ -69,7 +70,7 @@
         <tr>
           <th>No</th>
           <th>Product</th>
-          <th>Description</th>
+          <th style="text-align: left">Description</th>
           <th>Quantity</th>
           <th>Price</th>
           <th>Discount</th>
@@ -77,41 +78,36 @@
           <th>Amount</th>
         </tr>
 
-        <tr>
-          <td>1</td>
-          <td>Tiket Kereta Api</td>
-          <td>Jakarta - Surabaya</td>
-          <td class="center">3</td>
-          <td>Rp. 750,000.00</td>
-          <td class="center">0%</td>
-          <td class="center">0%</td>
-          <td>Rp. 2,250,000.00</td>
+        <tr style="border-bottom: 0px">
+          <td style="text-align: center">1</td>
+          <td style="padding: 0 20px 0 5px">Tiket Kereta Api</td>
+          <td style="padding-right: 70px">Jakarta - Surabaya</td>
+          <td style="text-align: center">3</td>
+          <td style="padding-left: 30px">Rp. 750,000.00</td>
+          <td style="text-align: center">0%</td>
+          <td style="text-align: center">0%</td>
+          <td style="padding-left: 60px">Rp. 2,250,000.00</td>
         </tr>
 
         <tr>
-          <td>2</td>
-          <td>Tiket Kereta Api</td>
-          <td>Surabaya - Jakarta</td>
-          <td class="center">3</td>
-          <td>Rp. 600,000.00</td>
-          <td class="center">0%</td>
-          <td class="center">0%</td>
-          <td>Rp. 1,800,000.00</td>
-        </tr>
-
-        <tr class="no-border">
-          <th class="no-border">Notes</th>
-          <th class="no-border"></th>
-          <th class="no-border"></th>
-          <th class="no-border"></th>
-          <th class="no-border"></th>
-          <th class="no-border"></th>
-          <th class="no-border">Total</th>
-          <th class="no-border">Rp. 4,50,000.00</th>
+          <td class="tabel-2" style="text-align: center">2</td>
+          <td class="tabel-2" style="padding-right: 20px; padding-left: 5px">Tiket Kereta Api</td>
+          <td class="tabel-2" style="padding-right: 70px">Surabaya - Jakarta</td>
+          <td class="tabel-2" style="text-align: center">3</td>
+          <td class="tabel-2" style="padding-left: 30px">Rp. 600,000.00</td>
+          <td class="tabel-2" style="text-align: center">0%</td>
+          <td class="tabel-2" style="text-align: center">0%</td>
+          <td class="tabel-2" style="padding-left: 60px">Rp. 1,800,000.00</td>
         </tr>
       </table>
-
-      <div class="akhir">
+      <table>
+        <tr>
+          <th style="padding-right: 550px">Notes</th>
+          <th style="padding-right: 60px">Total</th>
+          <th>Rp. 4,50,000.00</th>
+        </tr>
+      </table>
+      <div class="div-2">
         <br />
         <hr />
         <h4>Terms and Condition</h4>
