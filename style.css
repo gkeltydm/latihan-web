@@ -17,6 +17,7 @@ table {
 
 .tabel-1 {
   padding-right: 60px;
+  padding-bottom: 10px;
 }
 
 .tabel-2,
@@ -25,7 +26,8 @@ table {
 }
 
 .data-tabel-1 {
-  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .data-tabel-2 {
